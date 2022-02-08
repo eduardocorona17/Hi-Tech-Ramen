@@ -21,7 +21,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--tan-4);
+  background-color: black;
   padding: 2vmin;
   height: 100vh;
 }
@@ -80,9 +80,9 @@ code {
 
 .form-container {
   padding: 3vmin;
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
-  border-radius: 1vmin;
+  background-color: black;
+  border: .10vmin solid greenyellow;
+  border-radius: 5vmin;
 }
 
 p.error-message {
@@ -120,17 +120,22 @@ input:focus {
 button, a.button {
   margin: 1vmin;
   padding: 1vmin;
-  color: var(--white);
-  background-color: var(--orange);
+  color: green;
+  background-color: rgb(250, 250, 250);
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  border: .1vmin solid var(--tan-2);
+  border: .10vmin solid greenyellow;
   border-radius: .5vmin;
   outline: none;
   cursor: pointer;
+  text-shadow: 0 0 0.25em currentColor,
+  0 0 0.125em white;
+  box-shadow: inset 0 0 .5em 0, 0 0 .5em 0;
 }
+
+
 
 button.btn-sm {
   font-size: 1.5vmin;
@@ -144,7 +149,7 @@ button.btn-xs {
 
 button:disabled, form:invalid button[type="submit"] {
   cursor: not-allowed;
-  background-color: var(--tan-4);
+  background-color: black;
 }
 
 button[type="submit"] {
