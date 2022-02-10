@@ -1,13 +1,26 @@
 .Logo {
     height: 12vmin;
-    width: 12vmin;
+    padding: 0px 670px;
+    /* width: 12vmin; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    background-color: var(--black);
-    color: var(--tan-1);
-    font-size: 2.7vmin;
-    border: .6vmin solid var(--tan-2); 
+    /* border-radius: 2vmin; */
+    background-color: black;
+    color: limegreen;
+    font-size: 3.5vmin;
+    border: 0.6vmin solid limegreen; 
+    align-content: center;
+    box-shadow: inset 0 0 0.5em 0, 0 0 0.5em 0;
   }
+
+  .logogo {
+    height: auto;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    text-align: center;;
+  }
+    
