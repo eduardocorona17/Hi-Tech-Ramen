@@ -16,13 +16,14 @@
     justify-content: flex-start;
     height: calc(100vh - 18vmin);
     width: 100%;
+    padding: 0px 100px;
   }
   
   .OrderDetail .total {
     width: 100%;
     display: grid;
     grid-template-columns: 18.35vw 5.75vw 5.25vw;
-    padding: 1vmin 0;
+    padding: 0px 300px;
     color: yellow;
     border-top: .1vmin solid limegreen;
   }

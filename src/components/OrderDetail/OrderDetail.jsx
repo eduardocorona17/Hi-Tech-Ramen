@@ -20,9 +20,9 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
         {order.isPaid ?
           <span>Order <span className="smaller">{order.orderId}</span></span>
           :
-          <span>Your Order</span>
+          <span>Here Are Your Current Items</span>
         }
-        <span>{new Date(order.updatedAt).toLocaleDateString()}</span>
+        {/* <span>{new Date(order.updatedAt).toLocaleDateString()}</span> */}
       </div>
       <div className="line-item-container flex-ctr-ctr flex-col scroll-y">
         {lineItems.length ?

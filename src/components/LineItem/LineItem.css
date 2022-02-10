@@ -2,11 +2,12 @@
     width: 100%;
     display: grid;
     grid-template-columns: 3vw 15.35vw 5.75vw 5.25vw;
-    padding: 1vmin 0;
+    padding: 0px 300px;
     color: yellow;
     background-color: black;
     border-top: .1vmin solid limegreen;
     font-size: 1.5vw;
+    
   }
   
   .LineItem:last-child {
