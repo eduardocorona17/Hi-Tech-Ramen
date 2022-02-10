@@ -18,9 +18,9 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
     <div className="OrderDetail">
       <div className="section-heading">
         {order.isPaid ?
-          <span>ORDER <span className="smaller">{order.orderId}</span></span>
+          <span>Order <span className="smaller">{order.orderId}</span></span>
           :
-          <span>NEW ORDER</span>
+          <span>Your Order</span>
         }
         <span>{new Date(order.updatedAt).toLocaleDateString()}</span>
       </div>

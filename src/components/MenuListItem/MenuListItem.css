@@ -8,7 +8,7 @@
   color: var(--text-light);
   background-color: black;
   border: .1vmin solid limegreen;
-  border-radius: 1vmin;
+  /* border-radius: 1vmin; */
   font-size: 4vmin;
 }
 
@@ -18,7 +18,7 @@
   font-size: 4vw;
   background-color: black;
   border: .1vmin solid limegreen;
-  border-radius: 1vmin;
+  
 }
 
 .MenuListItem .buy {
