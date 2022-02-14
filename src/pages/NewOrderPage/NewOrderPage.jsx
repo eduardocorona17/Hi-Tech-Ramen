@@ -15,7 +15,7 @@ export default function NewOrderPage({ user, setUser }) {
   const [cart, setCart] = useState(null);
   const categoriesRef = useRef([]);
 
-  // Use the navigate function to change routes programmatically
+  
   const navigate = useNavigate();
 
   async function handleAddToOrder(itemId) {
