@@ -25,6 +25,7 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
         {/* <span>{new Date(order.updatedAt).toLocaleDateString()}</span> */}
       </div>
       <div className="line-item-container flex-ctr-ctr flex-col scroll-y">
+        
         {lineItems.length ?
           <>
             {lineItems}
